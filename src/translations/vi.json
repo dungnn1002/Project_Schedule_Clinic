@@ -8,7 +8,9 @@
         "select-doctor": "Chọn bác sĩ giỏi",
         "fee": "Gói khám",
         "check-health": "Khám sức khỏe tổng quát",
-        "support": "Hỗ trợ"
+        "support": "Hỗ trợ",
+        "find-specialty": "Tìm chuyên khoa"
+
     },
     "banner": {
         "option-child1": "Khám chuyên khoa",
