@@ -1,0 +1,35 @@
+.section-about {
+    margin-top: 100px;
+    background-image: url(https://cdn.bookingcare.vn/fo/w1920/2023/11/01/140311-background5.png);
+    height: 560px;
+    padding-top: 40px;
+    .section-about-header {
+        font-weight: 600;
+        color: rgb(26, 26, 26);
+        font-size: 32px;
+        text-align: center;
+    }
+    .section-about-content {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 36px;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        .content-left {
+            width: 50%;
+            iframe {
+                border-radius: 20px;
+            }
+        }
+        .content-right {
+            width: 50%;
+            p {
+                text-align: justify;
+                font-style: italic;
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.section-main {
+    padding: 0 150px 50px 150px;
+    height: 417px;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+    .section-header {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 36px;
+
+        .section-header-text {
+            font-weight: 600;
+            color: rgb(26, 26, 26);
+            font-size: 24px;
+        }
+
+        .section-header-button {
+            background-color: rgb(218, 243, 246);
+            padding: 10px 8px;
+            border-radius: 16px;
+            text-decoration: none;
+            text-align: start;
+            color: rgb(52, 146, 158);
+            font-weight: 600;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0.8;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+    }
+
+    .section-body {
+        .section-content {
+            border: 1px solid rgb(234, 232, 232);
+            border-radius: 12px;
+            padding: 22px 0 28px 0;
+
+            .section-content-child {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .section-img {
+                    width: 92%;
+                    border-radius: 16px;
+                }
+
+                .section-text {
+                    margin-top: 26px;
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+            }
+        }
+
+    }
+
+    .slick-prev {
+        border: 1px solid rgb(181, 231, 237) !important;
+        left: -40px !important;
+        top: 152px !important;
+        z-index: 1;
+        height: 40px !important;
+        width: 40px !important;
+        background: rgb(255, 255, 255) !important;
+        border-radius: 8px;
+    }
+
+    .slick-next {
+        border: 1px solid rgb(181, 231, 237) !important;
+        right: -40px !important;
+        top: 152px !important;
+        z-index: 1;
+        height: 40px !important;
+        width: 40px !important;
+        background: rgb(255, 255, 255) !important;
+        border-radius: 8px;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        font-family: FontAwesome !important;
+        color: rgb(139, 228, 238) !important;
+    }
+
+    .slick-slide {
+        padding: 0 18px;
+    }
+
+}
+
+.home_footer {
+    margin: 12px;
+    text-align: center;
+    padding-top: 8px;
+
+    a {
+        text-decoration: none;
+    }
+}
