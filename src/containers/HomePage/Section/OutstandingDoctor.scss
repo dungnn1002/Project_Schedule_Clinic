@@ -1,0 +1,28 @@
+.section-main-doctor {
+    background-image: url(https://cdn.bookingcare.vn/fo/w1920/2023/11/01/140311-background5.png);
+    height: 620px !important;
+    padding-top: 40px !important;
+
+    .section-content {
+        border: none !important;
+
+        .section-img-doctor {
+            border-radius: 50% !important;
+            width: 60% !important;
+        }
+
+        .section-text {
+            width: 200px;
+            text-align: center;
+        }
+
+        .section-sub-text {
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+            color: rgb(98, 98, 98);
+            width: 200px;
+            margin-top: 4px;
+        }
+    }
+}
