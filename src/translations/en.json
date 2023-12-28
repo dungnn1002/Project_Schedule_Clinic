@@ -10,7 +10,7 @@
         "check-health": "General health check",
         "support": "Support",
         "find-specialty": "find a specialty",
-        "welcome": "welcome"
+        "welcome": "welcome, "
     },
     "banner": {
         "option-child1": "Specialized examination",
@@ -34,5 +34,19 @@
             "handbook": "Handbook",
             "manage-handbook": "Manage handbook"
         }
+    },
+    "manage-user": {
+        "add": "Add a new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Image",
+        "save": "Save"
     }
 }
